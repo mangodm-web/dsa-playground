@@ -113,3 +113,59 @@ def test_set():
     linked_list = LinkedList(4)
     linked_list.set(0, 5)
     assert linked_list.get(0).value == 5
+
+
+def test_insert():
+    linked_list = LinkedList(4)
+    linked_list.insert(0, 3)
+    assert linked_list.length == 2
+    assert linked_list.head.value == 3
+
+    linked_list.insert(1, 5)
+    assert linked_list.length == 3
+    assert linked_list.get(0).value == 3
+    assert linked_list.get(1).value == 5
+    assert linked_list.get(2).value == 4
+    assert linked_list.head.value == 3
+    assert linked_list.tail.value == 4
+
+    linked_list.insert(3, 8)
+    assert linked_list.length == 4
+    assert linked_list.tail.value == 8
+
+
+def test_remove():
+    linked_list = LinkedList(4)
+    linked_list.append(3)
+    linked_list.append(2)
+
+    linked_list.remove(0)
+    assert linked_list.length == 2
+    assert linked_list.head.value == 3
+
+    linked_list.remove(1)
+    assert linked_list.length == 1
+    assert linked_list.tail.value == 3
+
+    linked_list.append(5)
+    linked_list.append(6)
+
+    linked_list.remove(1)
+
+    assert linked_list.get(0).value == 3
+    assert linked_list.get(1).value == 6
+
+
+def test_reverse():
+    linked_list = LinkedList(4)
+    linked_list.append(3)
+    linked_list.append(2)
+
+    linked_list.reverse()
+
+    assert linked_list.get(0).value == 2
+    assert linked_list.get(1).value == 3
+    assert linked_list.get(2).value == 4
+
+    assert linked_list.head.value == 2
+    assert linked_list.tail.value == 4
