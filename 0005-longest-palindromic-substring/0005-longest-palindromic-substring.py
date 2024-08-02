@@ -10,7 +10,7 @@ class Solution:
                 if (j - i <= len(result)):
                     continue
                 
-                if self.is_palindrome(s[i:j]) and j - i > len(result):
+                if self.is_palindrome(s[i:j]) and (j - i) > len(result):
                     result = s[i:j]
         
         return result
