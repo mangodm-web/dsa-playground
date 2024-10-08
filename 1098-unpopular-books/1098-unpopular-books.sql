@@ -5,15 +5,19 @@ WITH temp AS (
 SELECT
     book_id,
     name
-FROM Books
-WHERE available_from <= (
+FROM
+    Books
+WHERE
+    available_from <= (
         SELECT today - INTERVAL '1 month'
         FROM temp
     )
     AND book_id NOT IN (
         SELECT book_id
         FROM Orders
-        WHERE dispatch_date BETWEEN (SELECT today - INTERVAL '1 year' FROM temp) AND (SELECT today FROM temp)
+        JOIN temp
+          ON Orders.dispatch_date >= temp.today - INTERVAL '1 year'
+         AND Orders.dispatch_date <= temp.today
         GROUP BY book_id
         HAVING SUM(quantity) >= 10
     );
