@@ -32,4 +32,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/mangodm-web/dsa-playground/tree/master/0238-product-of-array-except-self) |
+## Depth-First Search
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/mangodm-web/dsa-playground/tree/master/0207-course-schedule) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/mangodm-web/dsa-playground/tree/master/0207-course-schedule) |
+## Graph
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/mangodm-web/dsa-playground/tree/master/0207-course-schedule) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/mangodm-web/dsa-playground/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
