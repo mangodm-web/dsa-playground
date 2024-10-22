@@ -35,10 +35,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/mangodm-web/dsa-playground/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0207-course-schedule](https://github.com/mangodm-web/dsa-playground/tree/master/0207-course-schedule) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/mangodm-web/dsa-playground/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0207-course-schedule](https://github.com/mangodm-web/dsa-playground/tree/master/0207-course-schedule) |
 ## Graph
 |  |
@@ -48,4 +50,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/mangodm-web/dsa-playground/tree/master/0207-course-schedule) |
+## Tree
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/mangodm-web/dsa-playground/tree/master/0104-maximum-depth-of-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/mangodm-web/dsa-playground/tree/master/0104-maximum-depth-of-binary-tree) |
 <!---LeetCode Topics End-->
