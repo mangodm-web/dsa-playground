@@ -1,5 +1,6 @@
 from typing import Optional
 
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -9,8 +10,11 @@ class TreeNode:
 
 
 class Solution:
-    def maxDepth(self, root: Optional[TreeNode], result: int = 0) -> int:
+    def maxDepth(self, root: Optional[TreeNode]) -> int:
         if root is None:
-            return result
+            return 0
 
-        return max(self.maxDepth(root.left, result+1), self.maxDepth(root.right, result+1))
+        left_depth = self.maxDepth(root.left)
+        right_depth = self.maxDepth(root.right)
+
+        return max(left_depth, right_depth) + 1
