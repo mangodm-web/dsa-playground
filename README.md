@@ -35,12 +35,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/mangodm-web/dsa-playground/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/mangodm-web/dsa-playground/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0207-course-schedule](https://github.com/mangodm-web/dsa-playground/tree/master/0207-course-schedule) |
 | [0261-graph-valid-tree](https://github.com/mangodm-web/dsa-playground/tree/master/0261-graph-valid-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/mangodm-web/dsa-playground/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/mangodm-web/dsa-playground/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0207-course-schedule](https://github.com/mangodm-web/dsa-playground/tree/master/0207-course-schedule) |
 | [0261-graph-valid-tree](https://github.com/mangodm-web/dsa-playground/tree/master/0261-graph-valid-tree) |
@@ -56,10 +58,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/mangodm-web/dsa-playground/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/mangodm-web/dsa-playground/tree/master/0104-maximum-depth-of-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/mangodm-web/dsa-playground/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/mangodm-web/dsa-playground/tree/master/0104-maximum-depth-of-binary-tree) |
 ## Union Find
 |  |
