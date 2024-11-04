@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/mangodm-web/dsa-playground/tree/master/0238-product-of-array-except-self) |
+| [0252-meeting-rooms](https://github.com/mangodm-web/dsa-playground/tree/master/0252-meeting-rooms) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -87,4 +88,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/mangodm-web/dsa-playground/tree/master/0143-reorder-list) |
+## Sorting
+|  |
+| ------- |
+| [0252-meeting-rooms](https://github.com/mangodm-web/dsa-playground/tree/master/0252-meeting-rooms) |
 <!---LeetCode Topics End-->
